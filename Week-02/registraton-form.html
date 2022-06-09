@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="Register-form-style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="register-form">
+      <p class="title">
+        <i class="fa fa-book" style="font-size: 24px"></i>Registration form
+      </p>
+      <form>
+        <fieldset class="fieldset">
+          <legend>Personal information</legend>
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="First name" />
+
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Last name" />
+
+            <i class="fa fa-envelope icon"></i>
+            <input
+              class="input-field"
+              type="text"
+              placeholder="Email"
+              name="email"
+            />
+          </div>
+          <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="RO">Romania</option>
+              <option value="FR">France</option>
+              <option value="SP">Spain</option>
+            </select>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="gm" />
+            <label for="gm">Male</label>
+            <input type="radio" name="gender" id="gf" />
+            <label for="gf">Female</label>
+          </div>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend>User information</legend>
+          <div class="user-information">
+            <div class="input-container">
+              <i class="fa fa-user icon"></i>
+              <input class="input-field" type="text" placeholder="User name" />
+            </div>
+            <div class="input-container">
+              <i class="fa fa-key icon"></i>
+              <input
+                class="input-field"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="input-container">
+              <i class="fa fa-key icon"></i>
+              <input
+                class="input-field"
+                type="password"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+        </fieldset>
+        <div class="terms">
+          <input type="checkbox" id="terms" />
+          <label for="terms" class="label-terms"
+            >I accept the <a href="#">Terms of Use</a></label
+          >
+        </div>
+        <div>
+          <button type="submit" class="btn">Register</button>
+        </div>
+        <div class="reset">
+          <input type="reset" value="Clear form" class="reset-btn" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

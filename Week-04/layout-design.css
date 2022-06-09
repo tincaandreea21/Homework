@@ -1,0 +1,141 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border: 1px solid red;
+  top: 0px;
+}
+header ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+header ul li {
+  display: inline-flex;
+  list-style: none;
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 3.5em;
+  width: 11em;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 2em;
+}
+
+.cover {
+  border: 1px solid red;
+  position: relative;
+}
+.cover-img {
+  width: 100%;
+}
+.first-section {
+  border: 1px solid black;
+  position: absolute;
+  width: 300px;
+  background-color: #b9b9d9;
+  top: 50px;
+  left: 30px;
+}
+.btn-news {
+  font-size: 60px;
+  position: absolute;
+  top: 450px;
+  left: 450px;
+}
+.article {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px dotted black;
+}
+.article-1 {
+  padding: 10px;
+  justify-content: center;
+  width: 30%;
+  border: 1px solid black;
+  text-align: center;
+}
+.article-img {
+  width: 240px;
+}
+.article-1 p {
+  text-align: justify;
+}
+.article-1 a {
+  text-align: end;
+  text-decoration: none;
+  display: block;
+}
+.second-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-img {
+  width: 500px;
+  height: 260px;
+  float: left;
+}
+.second-section div {
+  display: grid;
+  margin: 0px 0px 0px 15px;
+}
+.second-section > div > h4 {
+  margin: 0px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.second-section div p {
+  font-size: 20px;
+  width: 440px;
+  text-align: justify;
+  margin: 0px;
+}
+.second-section div a {
+  text-align: end;
+  text-decoration: none;
+  display: block;
+}
+.right-list {
+  background-color: #eaeaf5;
+  padding: 20px;
+}
+.list-title {
+  text-decoration: underline;
+}
+.second-section div ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.second-section div ul li {
+  list-style: none;
+  border-bottom: 1px dotted gray;
+}
+.second-section div ul li a {
+  text-align: left;
+  font-size: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(202, 202, 243);
+}
+footer a {
+  text-decoration: none;
+}

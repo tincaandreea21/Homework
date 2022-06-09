@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  margin: 3% 10%;
+}
+header {
+  font-size: 40px;
+  color: #f9ae6beb;
+  padding: 20px;
+}
+section {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+section label {
+  font-size: 30px;
+  padding-right: 10px;
+}
+select {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  outline: none;
+}
+button {
+  box-shadow: 0px 6px 9px 0px #aaa;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  outline: none;
+  cursor: pointer;
+  margin: 20px;
+  background-color: white;
+}
+.hidden {
+  visibility: hidden;
+}
+
+#img {
+  max-width: 400px;
+  max-height: 500px;
+}

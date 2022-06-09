@@ -1,0 +1,76 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+  justify-content: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(125, 209, 125),
+    rgb(55, 85, 55)
+  );
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  box-shadow: 0px 0px 17px 13px beige;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+}
+form {
+  border-right: 1px solid gray;
+  padding: 20px;
+  margin: 10px;
+}
+form label {
+  display: block;
+  padding: 10px 0px;
+}
+.gender {
+  display: flex;
+}
+.gender input {
+  width: fit-content;
+  height: fit-content;
+  margin-right: 10px;
+}
+.gender label {
+  padding-top: 0px;
+}
+form input {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+  height: 30px;
+}
+#btn-bmi {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+.result {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  padding: 50px 20px;
+  width: 40%;
+  margin: 10px;
+}
+#result-text {
+  font-size: 20px;
+}
+#result-status {
+  font-size: 30px;
+  font-weight: bold;
+}
+footer {
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}

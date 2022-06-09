@@ -1,0 +1,108 @@
+@font-face {
+  src: url("Fonts/Muli.ttf");
+  font-family: muli;
+}
+@font-face {
+  src: url("Fonts/Muli-Light.ttf");
+  font-family: muli-light;
+}
+@font-face {
+  src: url("Fonts/Muli-Bold.ttf");
+  font-family: muli-bold;
+}
+body {
+  background-color: rgb(241, 241, 237);
+  margin: 10px;
+  font-family: muli;
+}
+p {
+  font-family: muli-light;
+}
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  padding: 20px;
+  margin: auto;
+}
+.img-1 {
+  background-image: url("https://www.ikea.com/ro/ro/images/products/norrary…ar-cu-spatar-negru__0728070_pe736043_s5.jpg?f=xxs");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+.img-1:hover {
+  background-image: url("https://www.ikea.com/ro/ro/images/products/norrary…ar-cu-spatar-negru__0873586_pe689186_s5.jpg?f=xxs");
+}
+
+.img-2 {
+  background-image: url("	https://www.ikea.com/ro/ro/images/products/dalfred-scaun-bar-negru__0727486_pe735711_s5.jpg?f=xxs");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.img-2:hover {
+  background-image: url("https://www.ikea.com/ro/ro/images/products/dalfred-scaun-bar-negru__0874435_pe593537_s5.jpg?f=xl");
+}
+
+.img-3 {
+  background-image: url("https://www.ikea.com/ro/ro/images/products/stig-sc…spatar-negru-negru__0948118_pe798873_s5.jpg?f=xxs");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+.img-3:hover {
+  background-image: url("https://www.ikea.com/ro/ro/images/products/stig-sc…spatar-negru-negru__0948119_pe798874_s5.jpg?f=xxs");
+}
+h1 {
+  text-align-last: justify;
+  font-size: 25px;
+  margin-block-end: 3px;
+  margin-block-start: 3px;
+}
+.lei {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+i:hover {
+  opacity: 0.6;
+}
+#heart,
+#star {
+  font-size: 25px;
+  margin: auto;
+}
+.rating {
+  font-size: 17px;
+}
+button {
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(44, 42, 42);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 15px;
+}
+button:hover {
+  background-color: black;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}

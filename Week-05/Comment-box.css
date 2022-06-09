@@ -1,0 +1,47 @@
+body {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#div-add-comment {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+#div-add-comment p {
+  width: 100%;
+}
+#textarea-comment {
+  width: 100%;
+  margin: 10px;
+}
+#btn-add-comment {
+  margin: 10px;
+}
+#div-comment-list img {
+  height: 100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 40px;
+}
+#div-comment-list ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#div-comment-list ul li {
+  width: 100%;
+  margin: 10px;
+  align-items: center;
+}
+.paragraph {
+  display: inline-block;
+}
+#delete {
+  align-self: flex-end;
+  display: block;
+}

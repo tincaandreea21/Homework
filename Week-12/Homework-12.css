@@ -1,0 +1,28 @@
+.main-nav {
+  background-color: rgb(223, 223, 243);
+  display: flex;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+}
+.main-nav ul li a {
+  text-decoration: none;
+}
+.main-nav ul li a:active {
+  color: #551a8b;
+}
+
+.tooltip {
+  position: relative;
+}
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}

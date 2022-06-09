@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Libris-layout</title>
+    <link rel="stylesheet" href="Libris.css" />
+  </head>
+  <body>
+    <header>
+      <p>LIBRIS</p>
+      <p class="moto">We know books</p>
+      <input
+        type="text"
+        id="search-bar"
+        placeholder="Cauta printre rafturile noastre"
+      />
+    </header>
+    <div>
+      <ul>
+        <li>Categorii</li>
+        <li>Cele mai citite</li>
+        <li>Precomenzi</li>
+        <li>Noutati</li>
+        <li>Edituri</li>
+        <li>Aboneaza-te la newsletter</li>
+      </ul>
+    </div>
+    <div class="left-list">
+      <section class="book-list">
+        <p>Carti</p>
+        <ul>
+          <li>Afaceri Economie (959)</li>
+          <li>Arta Arhitectura Design (337)</li>
+          <li>Audiobook (226)</li>
+          <li>Beletristica (15719)</li>
+          <li>Best Deals (725)</li>
+          <li>Biografii Memorii Jurnale (2048)</li>
+          <li>Calatorii Ghiduri Harti (420)</li>
+          <li>Carti In Maghiara (163)</li>
+          <li>Carti Pentru Copii (13007)</li>
+          <li>Cresterea Copilului (594)</li>
+          <li>Cultura Generala (342)</li>
+          <li>Dezvoltare Personala (1246)</li>
+          <li>Biografii Memorii Jurnale (2048)</li>
+          <li>Calatorii Ghiduri Harti (420)</li>
+          <li>Carti In Maghiara (163)</li>
+          <li>Carti Pentru Copii (13007)</li>
+          <li>Cresterea Copilului (594)</li>
+          <li>Cultura Generala (342)</li>
+          <li>Dezvoltare Personala (1246)</li>
+        </ul>
+      </section>
+      <section class="recomandation">
+        <p>Recomandarile librarului</p>
+        <ul>
+          <li><input type="checkbox" />Carti premiat - Nobel (225)</li>
+          <li><input type="checkbox" /> Books vs. Movies (191)</li>
+          <li><input type="checkbox" />Povesti cu talc (94)</li>
+          <li><input type="checkbox" />Ecranizari Romance (65)</li>
+          <li><input type="checkbox" /> Universul DUNE (15)</li>
+          <li><input type="checkbox" /> Universul Harry Potter (14)</li>
+        </ul>
+      </section>
+    </div>
+    <div class="main">
+      <section>
+        <p>Carti</p>
+        <div class="label-select">
+          <label for="category">Ordoneaza dupa</label>
+          <select name="category" id="category">
+            <option>Pret crescator</option>
+            <option>Pret descrescator</option>
+            <option>Cele mai vechi</option>
+            <option>Cele mai noi</option>
+            <option selected>Cele mai vandute</option>
+          </select>
+        </div>
+      </section>
+      <div class="book-display">
+        <ul>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+          <li><div class="book"></div></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

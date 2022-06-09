@@ -1,0 +1,26 @@
+* {
+  padding: 20px;
+}
+div {
+  border: 2px solid red;
+}
+
+#container {
+  border: 2px solid blue;
+}
+
+/* According to the W3 spec, the :first-letter pseudo-element only work 
+  for a block element, which <a> is not. */
+
+/* p + a::first-letter {
+    color: red;
+  } */
+
+/* in exemplu este trecut '=*' , dar cred ca trebuie modificat la '*=' pentru a fi corect selectorul*/
+
+li > a[href*="orice.html"] > .red {
+  font-size: 200px;
+}
+#container div > p > a:hover {
+  color: hotpink;
+}

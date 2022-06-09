@@ -1,0 +1,24 @@
+table {
+  border-spacing: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.td-1,
+.td-4 {
+  background-color: rgb(250, 250, 167);
+  width: 800px;
+  height: 70px;
+  border-radius: 15px;
+}
+.td-2 {
+  background-color: rgb(46, 174, 184);
+  width: 400px;
+  height: 70px;
+  border-radius: 15px;
+}
+.td-3 {
+  background-color: rgb(25, 46, 116);
+  width: 100px;
+  height: 70px;
+  border-radius: 15px;
+}

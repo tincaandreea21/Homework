@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMI CALCULATOR</title>
+    <link rel="stylesheet" href="bmi-calc.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <h1>BMI CALCULATOR</h1>
+        <label for="input-name" id="label-name">Name</label>
+        <input
+          type="text"
+          placeholder="Name"
+          id="input-name"
+          name="input-name"
+        />
+        <p>Gender</p>
+        <div class="gender">
+          <input type="radio" name="input-gender" id="input-gm" value="M" />
+          <label for="input-gm" id="label-gm">Male</label>
+          <input type="radio" name="input-gender" id="input-gf" value="F" />
+          <label for="input-gf" id="label-gf">Female</label>
+        </div>
+        <label for="input-height" id="label-heigt">Height (M)</label>
+        <input
+          type="number"
+          placeholder="Height"
+          id="input-height"
+          name="input-height"
+        />
+        <label for="input-weight" id="label-weight">Weight (Kg)</label>
+        <input
+          type="number"
+          placeholder="Weight"
+          id="input-weight"
+          name="input-weight"
+        />
+        <button type="button" id="btn-bmi" onclick="getInputValue()">
+          Calc BMI
+        </button>
+      </form>
+      <div class="result">
+        <h2>Result</h2>
+        <p id="result-text"></p>
+        <h3>Your BMI status is:</h3>
+        <p id="result-status"></p>
+      </div>
+      <footer>
+        <p>&copy Andreea Tinca</p>
+      </footer>
+    </main>
+    <script src="bmi-calc.js"></script>
+  </body>
+</html>
